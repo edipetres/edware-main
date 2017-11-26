@@ -6,7 +6,7 @@
     </nav> -->
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between">
       <div class="nav-logo">
         <a class="navbar-brand mb-0 h1 padded-nav-item" href="">edware.io</a>
       </div>
