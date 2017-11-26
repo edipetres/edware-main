@@ -7,7 +7,7 @@
       <h1>Edmond Petres</h1>
     </a>
     <h2>Developer <a target="_blank" href="https://www.praqma.com/">@Praqma</a><br>
-    Studies Computer Science <a target="_blank" href="https://www.cphbusiness.dk/">@Cphbusiness</a></h2>
+    🎓 Computer Science <a target="_blank" href="https://www.cphbusiness.dk/">@Cphbusiness</a></h2>
   </div>
 </template>
 <script>
