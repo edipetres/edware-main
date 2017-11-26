@@ -1,15 +1,10 @@
 <template>
   <div id="app">
-    <!-- <nav class="navbar navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1 padded-nav-item">edware.io</span>
-
-    </nav> -->
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between">
-      <div class="nav-logo">
-        <a class="navbar-brand mb-0 h1 padded-nav-item" href="">edware.io</a>
-      </div>
+      <a class="navbar-brand nav-logo" href="#">
+        <img src="/static/edware.io-logo.png" class="d-inline-block align-top" alt="">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,10 +17,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">About</a>
           </li>
         </ul>
       </div>
@@ -66,17 +61,6 @@ nav {
   padding: 0 !important;
 }
 
-.padded-nav-item {
-  padding: 10px
-}
-
-.nav-logo {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  letter-spacing: 2px;
-  padding-left: 15px;
-}
-
 .nav-logo:hover {
   background-color: #EAFDF2;
   border-right: 2px solid #595959;
@@ -84,5 +68,11 @@ nav {
 
 .nav-item:hover {
   background-color: #EAFDF2;
+}
+
+nav img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
 }
 </style>
