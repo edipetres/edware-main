@@ -1,12 +1,13 @@
 <template>
   <div class='main'>
-    <a href="">
+    <a href="//edware.io">
       <img src="/static/portrait.png" alt="Profile pic" class="profile-img rounded-circle">
     </a>
-    <a href="http://www.edware.io">
+    <a href="//edware.io">
       <h1>Edmond Petres</h1>
     </a>
-    <h2>Developer @ Praqma</h2>
+    <h2>Developer <a target="_blank" href="https://www.praqma.com/">@Praqma</a><br>
+    Studies Computer Science <a target="_blank" href="https://www.cphbusiness.dk/">@Cphbusiness</a></h2>
   </div>
 </template>
 <script>
@@ -21,10 +22,8 @@ $border-color: 1px solid #A7CEBA;
 
 .main {
   font-family: 'Open Sans', sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-family: 'Arvo', serif; */
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   background-color: $light-green;
   color: #595959;
   font-weight: bold !important;
@@ -35,9 +34,9 @@ $border-color: 1px solid #A7CEBA;
 
 <style>
 .profile-img {
-  width: 130px;
+  width: 115px;
   padding: 0.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid #A7CEBA;
   background-color: white;
 }
@@ -51,6 +50,9 @@ h1 {
 }
 h2 {
   font-weight: 100;
+  font-family: 'Merriweather', sans-serif;
+  color: #829099;
+  font-size: 1.5rem;
 }
 a:hover, a:active {
     text-decoration: none;
