@@ -17,6 +17,7 @@
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
               </p>
+              <a href="https://github.com/Praqma/questionnaire-engine" class="card-link">GitHub repo</a>
             </div>
           </div>
           <div class="card">
@@ -32,12 +33,13 @@
           <div class="card">
             <img class="card-img-top" src="#" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">Toggl Rules</h4>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
                 longer content than the first to show that equal height action.</p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
               </p>
+              <a href="https://github.com/Praqma/toggl-rules" class="card-link">GitHub repo</a>
             </div>
           </div>
         </div>
@@ -64,6 +66,7 @@ export default {
   },
 };
 </script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
