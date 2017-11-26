@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <header>
-      <span>edware</span>
-    </header>
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1 padded-nav-item">edware.io</span>
+    </nav>
     <main>
       <router-view></router-view>
     </main>
@@ -21,7 +21,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -29,25 +29,25 @@ body {
 
 main {
   text-align: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
-header {
-  margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
+nav {
+  padding: 0 !important;
 }
 
-header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: .02em;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
+.padded-nav-item {
+  padding: 10px
+}
+
+nav .h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+span:hover {
+  background-color: #EAFDF2;
+  border-right: 2px solid #595959;
 }
 </style>
